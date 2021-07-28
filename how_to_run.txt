@@ -4,6 +4,10 @@ uvicorn main:app --reload
 to view all endpoints locally
 <url>/docs
 
+FRONTEND
+frontend/EPS_Mobile_App-v1-release.apk
 
+
+BACKEND
 Deployed on cloud
 https://arlqyc.deta.dev/
