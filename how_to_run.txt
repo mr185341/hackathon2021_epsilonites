@@ -1,0 +1,9 @@
+To start the app run locally
+uvicorn main:app --reload
+
+to view all endpoints locally
+<url>/docs
+
+
+Deployed on cloud
+https://arlqyc.deta.dev/

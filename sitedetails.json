@@ -1,0 +1,52 @@
+{
+    "site": {
+        "site_id": 2233,
+        "name": "KT Fuel Station",
+        "status": "open",
+        "terminals": [
+            {
+                "type": "terminal",
+                "id": 1,
+                "status": "online",
+                "device_name": "Verifone",
+                "model": "MX915",
+                "IP": "192.166.0.102",
+                "port": 7051
+            },
+            {
+                "type": "terminal",
+                "id": 2,
+                "status": "offline",
+                "device_name": "Verifone",
+                "model": "M400",
+                "IP": "192.166.0.104",
+                "port": 7052
+            }
+        ],
+        "pumps": [
+            {
+                "type": "pump",
+                "id": 1,
+                "status": "idle",
+                "model": "Wayne",
+                "IP": "192.136.0.324",
+                "port": 2837
+            },
+            {
+                "type": "pump",
+                "id": 2,
+                "status": "offline",
+                "model": "Gilbarco",
+                "IP": "192.123.0.675",
+                "port": 3457
+            }
+        ],
+        "cards": {
+            "MasterCard": "Y",
+            "Visa": "Y",
+            "Disocver": "Y",
+            "WEX": "N",
+            "Voyager": "Y"
+        }
+    }
+}
